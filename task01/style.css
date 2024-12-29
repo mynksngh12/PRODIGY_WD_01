@@ -1,0 +1,54 @@
+/* Basic reset */
+*{margin: 0px; padding: 0px; box-sizing: border-box;}
+
+body {
+    font-family: Arial, sans-serif;
+  }
+
+  /* Style the navigation menu */
+#navbar{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: auto; width: 100%;
+    background-color: grey;
+    z-index: 1000;
+}
+#navbar ul li{
+display: inline-flex;
+
+padding: 20px 68.8px;
+font-size:20px ;
+}
+#navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+  /* Hover effect for menu items */
+#navbar ul li:hover{background-color: blue;}
+#navbar ul li a:hover{
+    color: orange;
+}
+ /* Content styling */
+.content{
+    height: auto;
+    width: 100%;
+    text-align: center;
+    padding-top: 70px; /* Adjust for navbar height */
+}
+section h1 {
+    font-size: 3rem;
+  }
+section {
+    height: 100vh; 
+    padding: 50px;
+    text-align: center;
+}
+  /* Styles for when navbar is scrolled */
+  
+    .scrolled {
+        background-color: #222;
+         box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); 
+        /* box-shadow: 0px 2px 10px green; */
+      
+  }
